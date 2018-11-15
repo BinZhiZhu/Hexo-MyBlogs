@@ -8,11 +8,11 @@ subtitle: Hello,World.
 description: 纵使你脚下有一千名挑战者，那就把我算作第一千零一名。
 author: binzhizhu
 language: zh-Hans
-timezone:
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://binzhizhu.github.io
 root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
