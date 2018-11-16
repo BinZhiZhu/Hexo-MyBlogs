@@ -1,7 +1,8 @@
 ---
 title: 解决Hexo首页阅读次数样式诡异的问题
 date: 2018-11-16 10:19:43
-tags:
+tags: [Hexo]
+categories: Hexo
 ---
 ## 前言
 
@@ -12,6 +13,8 @@ tags:
   于是我忍不住摁住F12一探究竟,大致可以知道阅读次数那一块的元素是js直接赋值的，所以我就去找了一下阅读统计的部分的相关js，我比较粗暴，直接定位全局搜索一波 *leancloud_visitors*  相关的文件
   这是我们可以找到一个路径为 *themes\next\layout\_third-party\analytics\lean-analytics.swig* 的文件，打开发现就是这部分js处理leancloud的阅读数量统计。 
 
+ ![今天的我](/images/11-16.jpg)
+ 
  <!-- more -->
  
 ### 贴一波阅读次数统计的代码(LeanCloud提供支持)
@@ -61,6 +64,9 @@ tags:
   return;
   
  ```
+ 
+ ### 真.阅读统计代码段
+
   这么做实际上很简单，类似于做一层兼容了，确保不会重复循环，修复了之后发现真的没有问题了，阅读次数显示正常了，美滋滋，这也是一种收获。顺便也贴一下其他阅读统计事件的代码片段吧： 
    ``` 这里是统计部分 
    function addCount(Counter) {
