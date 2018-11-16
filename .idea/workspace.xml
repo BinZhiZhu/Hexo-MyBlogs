@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e435154-7bb9-4dfe-af2d-80c2f1845d0e" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/解决Hexo首页阅读次数样式诡异的问题.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/解决Hexo首页阅读次数样式诡异的问题.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/Vue-js结合ElementUI的（分页）进行前端分页.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Vue-js结合ElementUI的（分页）进行前端分页.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,8 +45,8 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/Vue-js结合ElementUI的（分页）进行前端分页.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="152">
-                <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <first_editor relative-caret-position="417">
+                <caret line="93" column="82" selection-start-line="93" selection-start-column="82" selection-end-line="93" selection-end-column="82" />
               </first_editor>
               <second_editor />
             </state>
@@ -177,6 +176,17 @@
               <item name="Myblogs" type="b2602c69:ProjectViewProjectNode" />
               <item name="Myblogs" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="Myblogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Myblogs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Myblogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Myblogs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -231,7 +241,7 @@
       <workItem from="1542343424687" duration="3487000" />
       <workItem from="1542365931248" duration="118000" />
       <workItem from="1542366130449" duration="423000" />
-      <workItem from="1542382157083" duration="2887000" />
+      <workItem from="1542382157083" duration="4918000" />
     </task>
     <task id="LOCAL-00001" summary="修复初始化配置缺少空格问题">
       <created>1542034728083</created>
@@ -258,7 +268,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49310000" />
+    <option name="totallyTimeSpent" value="51341000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -664,8 +674,8 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/Vue-js结合ElementUI的（分页）进行前端分页.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="152">
-            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <first_editor relative-caret-position="417">
+            <caret line="93" column="82" selection-start-line="93" selection-start-column="82" selection-end-line="93" selection-end-column="82" />
           </first_editor>
           <second_editor />
         </state>
