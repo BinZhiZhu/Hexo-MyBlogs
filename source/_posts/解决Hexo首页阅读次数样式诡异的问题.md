@@ -13,7 +13,7 @@ categories: Hexo
   于是我忍不住摁住F12一探究竟,大致可以知道阅读次数那一块的元素是js直接赋值的，所以我就去找了一下阅读统计的部分的相关js，我比较粗暴，直接定位全局搜索一波 *leancloud_visitors*  相关的文件
   这是我们可以找到一个路径为 *themes\next\layout\_third-party\analytics\lean-analytics.swig* 的文件，打开发现就是这部分js处理leancloud的阅读数量统计。 
 
- ![今天的我](/images/11-16.png)
+ ![今天的我](/blogimages/11-16.png)
  
  <!-- more -->
  
@@ -129,4 +129,4 @@ categories: Hexo
  但有趣的一点是我们可以在这些开源的框架或者资源里面肆意的玩弄代码，hexo其实就是提供给大家开源开发的，看着文档接服务就好了，一大推的第三方服务已经Api。
  最后发一个今天的自拍吧 哈哈哈！！！
  
- ![今天的我](/images/11-16.png)
+ ![今天的我](/blogimages/11-16.png)
