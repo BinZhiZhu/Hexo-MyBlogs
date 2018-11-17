@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e435154-7bb9-4dfe-af2d-80c2f1845d0e" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +26,8 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state relative-caret-position="284">
+              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -44,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="828" lean-forward="true" selection-start-line="828" selection-end-line="828" />
+              <caret line="828" selection-start-line="828" selection-end-line="828" />
             </state>
           </provider>
         </entry>
@@ -88,8 +89,8 @@
       <find>favicon</find>
       <find>sear</find>
       <find>email</find>
-      <find>background_image</find>
       <find>canvas_nest</find>
+      <find>background_image</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -107,7 +108,6 @@
         <option value="$PROJECT_DIR$/themes/next/source/js/src/love.js" />
         <option value="$PROJECT_DIR$/themes/next/layout/_macro/sidebar.swig" />
         <option value="$PROJECT_DIR$/source/_posts/尝试使用Hexo+GitHub+Npm+Git搭建博客.md" />
-        <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/sidebar/sidebar-author.styl" />
         <option value="$PROJECT_DIR$/themes/next/layout/_macro/post.swig" />
         <option value="$PROJECT_DIR$/scripts/event.js" />
         <option value="$PROJECT_DIR$/source/about/index.md" />
@@ -131,6 +131,7 @@
         <option value="$PROJECT_DIR$/source/_posts/解决Hexo首页阅读次数样式诡异的问题.md" />
         <option value="$PROJECT_DIR$/source/_posts/Vue-js结合ElementUI的（分页）进行前端分页.md" />
         <option value="$PROJECT_DIR$/themes/next/_config.yml" />
+        <option value="$PROJECT_DIR$/themes/next/source/css/_common/components/sidebar/sidebar-author.styl" />
         <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
@@ -176,6 +177,11 @@
             <path>
               <item name="Myblogs" type="b2602c69:ProjectViewProjectNode" />
               <item name="Myblogs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Myblogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Myblogs" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -197,7 +203,7 @@
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="next" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="source" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="background" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -217,9 +223,9 @@
       <recent name="E:\Myblogs\public\blogimages" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Myblogs\themes\next\source\background" />
-      <recent name="E:\Myblogs\public\images" />
       <recent name="E:\Myblogs\themes\next\source\images" />
+      <recent name="E:\Myblogs\public\images" />
+      <recent name="E:\Myblogs\themes\next\source\background" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -257,7 +263,7 @@
       <workItem from="1542365931248" duration="118000" />
       <workItem from="1542366130449" duration="423000" />
       <workItem from="1542382157083" duration="5728000" />
-      <workItem from="1542428735966" duration="3669000" />
+      <workItem from="1542428735966" duration="4460000" />
     </task>
     <task id="LOCAL-00001" summary="修复初始化配置缺少空格问题">
       <created>1542034728083</created>
@@ -284,13 +290,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55820000" />
+    <option name="totallyTimeSpent" value="56611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2193646" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19591528" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="调试" order="7" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -379,31 +385,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="ES6 init" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15295">
-          <caret line="805" lean-forward="true" selection-start-line="805" selection-end-line="805" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/尝试使用Hexo+GitHub+Npm+Git搭建博客.md" />
-    <entry file="file://$PROJECT_DIR$/source/about/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="152">
-            <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -452,13 +433,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/hello-world.md" />
     <entry file="file://$PROJECT_DIR$/source/_posts/尝试使用Hexo+GitHub+Npm+Git搭建博客.md" />
-    <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/sidebar/sidebar-author.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/next/source/lib/jquery_lazyload/bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -682,14 +656,33 @@
     <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="828" lean-forward="true" selection-start-line="828" selection-end-line="828" />
+          <caret line="828" selection-start-line="828" selection-end-line="828" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/avatar.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/avatar.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/avatar1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/source/images/avatar1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/source/css/_common/components/sidebar/sidebar-author.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="284">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
