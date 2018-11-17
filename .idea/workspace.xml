@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e435154-7bb9-4dfe-af2d-80c2f1845d0e" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Vue-js结合ElementUI的（分页）进行前端分页.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Vue-js结合ElementUI的（分页）进行前端分页.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/解决Hexo首页阅读次数样式诡异的问题.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/解决Hexo首页阅读次数样式诡异的问题.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +25,8 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state relative-caret-position="255">
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -46,8 +43,8 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+            <state relative-caret-position="238">
+              <caret line="828" lean-forward="true" selection-start-line="828" selection-end-line="828" />
             </state>
           </provider>
         </entry>
@@ -63,9 +60,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Pisces</find>
-      <find>motion</find>
-      <find>index_generator</find>
       <find>visitors</find>
       <find>share</find>
       <find>cdn1.lncld.net</find>
@@ -91,8 +85,11 @@
       <find>$content-desktop</find>
       <find>headban</find>
       <find>nest</find>
-      <find>sear</find>
       <find>favicon</find>
+      <find>sear</find>
+      <find>email</find>
+      <find>background_image</find>
+      <find>canvas_nest</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -131,9 +128,9 @@
         <option value="$PROJECT_DIR$/themes/next/source/css/_variables/custom.styl" />
         <option value="$PROJECT_DIR$/themes/next/source/css/_schemes/Pisces/_layout.styl" />
         <option value="$PROJECT_DIR$/themes/next/layout/_layout.swig" />
-        <option value="$PROJECT_DIR$/themes/next/_config.yml" />
         <option value="$PROJECT_DIR$/source/_posts/解决Hexo首页阅读次数样式诡异的问题.md" />
         <option value="$PROJECT_DIR$/source/_posts/Vue-js结合ElementUI的（分页）进行前端分页.md" />
+        <option value="$PROJECT_DIR$/themes/next/_config.yml" />
         <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
@@ -179,18 +176,28 @@
             <path>
               <item name="Myblogs" type="b2602c69:ProjectViewProjectNode" />
               <item name="Myblogs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="source" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Myblogs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Myblogs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="source" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="_posts" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Myblogs" type="b2602c69:ProjectViewProjectNode" />
               <item name="Myblogs" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="next" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Myblogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Myblogs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="next" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="source" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Myblogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Myblogs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="next" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="source" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="background" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -210,6 +217,7 @@
       <recent name="E:\Myblogs\public\blogimages" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Myblogs\themes\next\source\background" />
       <recent name="E:\Myblogs\public\images" />
       <recent name="E:\Myblogs\themes\next\source\images" />
     </key>
@@ -249,7 +257,7 @@
       <workItem from="1542365931248" duration="118000" />
       <workItem from="1542366130449" duration="423000" />
       <workItem from="1542382157083" duration="5728000" />
-      <workItem from="1542428735966" duration="1191000" />
+      <workItem from="1542428735966" duration="3669000" />
     </task>
     <task id="LOCAL-00001" summary="修复初始化配置缺少空格问题">
       <created>1542034728083</created>
@@ -276,7 +284,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53342000" />
+    <option name="totallyTimeSpent" value="55820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -654,13 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/Vue-js结合ElementUI的（分页）进行前端分页.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -678,10 +679,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="828" lean-forward="true" selection-start-line="828" selection-end-line="828" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="255">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
