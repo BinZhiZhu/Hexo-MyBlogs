@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e435154-7bb9-4dfe-af2d-80c2f1845d0e" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Nginx-打开项目-Access-Denied.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/Axios-基于-promise-的-HTTP-库.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Axios-基于-promise-的-HTTP-库.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +18,8 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/Axios-基于-promise-的-HTTP-库.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="76">
-                <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <first_editor relative-caret-position="341">
+                <caret line="473" column="3" selection-start-line="473" selection-start-column="3" selection-end-line="473" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -31,8 +30,8 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/Vue-js结合ElementUI的（分页）进行前端分页.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="76">
-                <caret line="4" selection-start-line="4" selection-end-line="5" />
+              <first_editor relative-caret-position="284">
+                <caret line="57" selection-start-line="57" selection-end-line="58" />
               </first_editor>
               <second_editor />
             </state>
@@ -248,7 +247,7 @@
       <workItem from="1542680326176" duration="59000" />
       <workItem from="1542812412447" duration="3275000" />
       <workItem from="1543078715823" duration="37000" />
-      <workItem from="1543419854522" duration="1597000" />
+      <workItem from="1543419854522" duration="2087000" />
     </task>
     <task id="LOCAL-00001" summary="修复初始化配置缺少空格问题">
       <created>1542034728083</created>
@@ -275,13 +274,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69839000" />
+    <option name="totallyTimeSpent" value="70329000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22012103" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22012103" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="调试" order="7" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -679,8 +678,8 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/Vue-js结合ElementUI的（分页）进行前端分页.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="76">
-            <caret line="4" selection-start-line="4" selection-end-line="5" />
+          <first_editor relative-caret-position="284">
+            <caret line="57" selection-start-line="57" selection-end-line="58" />
           </first_editor>
           <second_editor />
         </state>
@@ -689,8 +688,8 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/Axios-基于-promise-的-HTTP-库.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="76">
-            <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <first_editor relative-caret-position="341">
+            <caret line="473" column="3" selection-start-line="473" selection-start-column="3" selection-end-line="473" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>

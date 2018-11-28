@@ -84,6 +84,7 @@ categories: 技术
     }));
   ```
    <!-- more -->
+
   ## axios API
   
   可以通过向 *axios* 传递相关配置来创建请求
@@ -348,6 +349,7 @@ categories: 技术
   
   ## 拦截器
   在请求或响应被 *then* 或 *catch* 处理前拦截它们:
+  
   ```
   // 添加请求拦截器
   axios.interceptors.request.use(function (config) {
@@ -366,16 +368,22 @@ categories: 技术
       // 对响应错误做点什么
       return Promise.reject(error);
     });
+    
   ```
+  
   如果你想在稍后移除拦截器，可以这样：
+  
   ```
   var myInterceptor = axios.interceptors.request.use(function () {/*...*/});
   axios.interceptors.request.eject(myInterceptor);
+  
   ```
   可以为自定义 axios 实例添加拦截器
+  
   ```
   var instance = axios.create();
   instance.interceptors.request.use(function () {/*...*/});
+  
   ```
   
   ## 错误处理
@@ -395,7 +403,9 @@ categories: 技术
     });
 
   ```
+  
   可以使用 *validateStatus* 配置选项定义一个自定义 HTTP 状态码的错误范围。
+  
   ```
   axios.get('/user/12345', {
     validateStatus: function (status) {
@@ -403,12 +413,18 @@ categories: 技术
     }
   })
   ```
+  
   ## 取消
+  
   使用 *cancel token* 取消请求
+  
   ```
   Axios 的 cancel token API 基于cancelable promises proposal，它还处于第一阶段。
+  
   ```
+  
   可以使用 *CancelToken.source* 工厂方法创建 *cancel token*，像这样：
+  
   ```
   var CancelToken = axios.CancelToken;
   var source = CancelToken.source();
@@ -439,6 +455,7 @@ categories: 技术
   
   // 取消请求
   cancel();
+  
   ```
   tip : 可以使用同一个 cancel token 取消多个请求
   
@@ -454,9 +471,9 @@ categories: 技术
     ```    
     
    *文章引用链接*
-   
-   [1]:https://www.kancloud.cn/yunye/axios "Axios"
-   [2]:https://github.com/axios/axios  "GitHub Axios"
-   [3]:https://cn.vuejs.org/v2/cookbook/using-axios-to-consume-apis.html "Axios 访问API"
+   s
+   [kancloud]: https://www.kancloud.cn/yunye/axios 
+   [GitHub Axios]: https://github.com/axios/axios
+   [Axios API]: https://cn.vuejs.org/v2/cookbook/using-axios-to-consume-apis.html 
   
 
