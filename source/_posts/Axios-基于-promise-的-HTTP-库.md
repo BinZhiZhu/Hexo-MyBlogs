@@ -2,10 +2,13 @@
 title: Axios--基于 promise 的 HTTP 库
 date: 2018-11-28 23:46:05
 tags: [axios]
-categories: 技术
+categories: 前端
 ---
+
 ##认识Axios
+
   Axios 是一个基于 promise 的 HTTP 库，可以用在浏览器和 node.js 中。
+  
 ## Features
 - 从浏览器中创建 XMLHttpRequests
 - 从 node.js 创建 http 请求
@@ -29,8 +32,12 @@ categories: 技术
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   ```
   
+  <!-- more-->
+  
 ## Example
-  执行 *Get* 请求
+
+  ###执行 *Get* 请求
+  
   ```
   为给定 ID 的 user 创建请求
   axios.get('/user?ID=12345')
@@ -54,7 +61,8 @@ categories: 技术
       console.log(error);
     });
    ```
-   执行 *POST* 请求
+   
+   ###执行 *POST* 请求
 
    ```
    axios.post('/user', {
@@ -67,9 +75,11 @@ categories: 技术
      .catch(function (error) {
        console.log(error);
      });
+     
    ```      
-  执行多个并发请求
-  ```
+   
+  ###执行多个并发请求
+  
   function getUserAccount() {
     return axios.get('/user/12345');
   }
@@ -82,15 +92,12 @@ categories: 技术
     .then(axios.spread(function (acct, perms) {
       两个请求现在都执行完成
     }));
-  ```
-   <!-- more -->
 
   ## axios API
   
   可以通过向 *axios* 传递相关配置来创建请求
   *axios(config)*
   
-  ```
   // 发送 POST 请求
   axios({
     method: 'post',
@@ -100,13 +107,13 @@ categories: 技术
       lastName: 'Flintstone'
     }
   });
-  ```
+  
   axios(url[, config])
   
-  ```
+  
   // 发送 GET 请求（默认的方法）
   axios('/user/12345');
-  ```
+  
   ## 请求方法的别名
   
   为方便起见，为所有支持的请求方法提供了别名
@@ -123,22 +130,22 @@ categories: 技术
   
 ## 并发
   处理并发请求的助手函数
-  ```
+  
   axios.all(iterable)
   axios.spread(callback)
-  ```
   
 ## 创建实例
   以使用自定义配置新建一个 axios 实例
   axios.create([config])
-  ```
+  
   var instance = axios.create({
     baseURL: 'https://some-domain.com/api/',
     timeout: 1000,
     headers: {'X-Custom-Header': 'foobar'}
   });
-  ```
+  
   ### 实例方法
+  
   以下是可用的实例方法。指定的配置将与实例的配置合并
   axios#request(config)
   axios#get(url[, config])
@@ -147,10 +154,10 @@ categories: 技术
   axios#post(url[, data[, config]])
   axios#put(url[, data[, config]])
   axios#patch(url[, data[, config]])
+  
   ## 请求配置
   这些是创建请求时可以用的配置选项。只有 *url* 是必需的。如果没有指定 *method*，请求将默认使用 *get* 方法。
   
-  ```
   {
     // `url` 是用于请求的服务器 URL
     url: '/user',
@@ -276,10 +283,10 @@ categories: 技术
     cancelToken: new CancelToken(function (cancel) {
     })
   }
-  ```
+  
   ## 响应结构
   某个请求的响应包含以下信息
-  ```
+  
   {
     // `data` 由服务器提供的响应
     data: {},
@@ -296,10 +303,9 @@ categories: 技术
     // `config` 是为请求提供的配置信息
     config: {}
   }
-  ```
+  
   使用 *then* 时，你将接收下面这样的响应：
   
-  ```
   axios.get('/user/12345')
     .then(function(response) {
       console.log(response.data);
@@ -308,20 +314,21 @@ categories: 技术
       console.log(response.headers);
       console.log(response.config);
     });
-  ```
   
   在使用 catch 时，或传递 rejection callback 作为 then 的第二个参数时，响应可以通过 error 对象可被使用，正如在错误处理这一节所讲。
   
   ## 配置的默认值/defaults
+  
   你可以指定将被用在各个请求的配置默认值
+  
   ### 全局的 axios 默认值
-  ```
+  
   axios.defaults.baseURL = 'https://api.example.com';
   axios.defaults.headers.common['Authorization'] = AUTH_TOKEN;
   axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
-  ```
+  
   ### 自定义实例默认值
-  ```
+  
   // 创建实例时设置配置的默认值
   var instance = axios.create({
     baseURL: 'https://api.example.com'
@@ -329,10 +336,10 @@ categories: 技术
   
   // 在实例已创建后修改默认值
   instance.defaults.headers.common['Authorization'] = AUTH_TOKEN;
-  ```
+  
   ### 配置的优先顺序
   配置会以一个优先顺序进行合并。这个顺序是：在 *lib/defaults.js* 找到的库的默认值，然后是实例的 *defaults* 属性，最后是请求的 *config* 参数。后者将优先于前者。这里是一个例子：
-  ```
+  
   // 使用由库提供的配置的默认值来创建实例
   // 此时超时配置的默认值是 `0`
   var instance = axios.create();
@@ -345,12 +352,10 @@ categories: 技术
   instance.get('/longRequest', {
     timeout: 5000
   });
-  ```
   
   ## 拦截器
   在请求或响应被 *then* 或 *catch* 处理前拦截它们:
   
-  ```
   // 添加请求拦截器
   axios.interceptors.request.use(function (config) {
       // 在发送请求之前做些什么
@@ -369,25 +374,20 @@ categories: 技术
       return Promise.reject(error);
     });
     
-  ```
   
   如果你想在稍后移除拦截器，可以这样：
   
-  ```
   var myInterceptor = axios.interceptors.request.use(function () {/*...*/});
   axios.interceptors.request.eject(myInterceptor);
   
-  ```
+  
   可以为自定义 axios 实例添加拦截器
   
-  ```
   var instance = axios.create();
   instance.interceptors.request.use(function () {/*...*/});
   
-  ```
   
   ## 错误处理
-  ```
   axios.get('/user/12345')
     .catch(function (error) {
       if (error.response) {
@@ -402,30 +402,24 @@ categories: 技术
       console.log(error.config);
     });
 
-  ```
   
   可以使用 *validateStatus* 配置选项定义一个自定义 HTTP 状态码的错误范围。
   
-  ```
   axios.get('/user/12345', {
     validateStatus: function (status) {
       return status < 500; // 状态码在大于或等于500时才会 reject
     }
   })
-  ```
   
   ## 取消
   
   使用 *cancel token* 取消请求
   
-  ```
   Axios 的 cancel token API 基于cancelable promises proposal，它还处于第一阶段。
   
-  ```
   
   可以使用 *CancelToken.source* 工厂方法创建 *cancel token*，像这样：
   
-  ```
   var CancelToken = axios.CancelToken;
   var source = CancelToken.source();
   
@@ -456,7 +450,7 @@ categories: 技术
   // 取消请求
   cancel();
   
-  ```
+  
   tip : 可以使用同一个 cancel token 取消多个请求
   
   ## Promises
@@ -465,13 +459,11 @@ categories: 技术
   
   ## TypeScript
    *axios includes TypeScript definitions*
-    ```
+   
     import axios from 'axios';
     axios.get('/user?ID=12345');
-    ```    
     
    *文章引用链接*
-   
    [kancloud]: https://www.kancloud.cn/yunye/axios 
    [GitHub Axios]: https://github.com/axios/axios
    [Axios API]: https://cn.vuejs.org/v2/cookbook/using-axios-to-consume-apis.html 

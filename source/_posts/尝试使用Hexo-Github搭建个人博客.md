@@ -2,7 +2,7 @@
 title: 尝试使用Hexo+Github搭建个人博客
 date: 2018-11-14 00:14:26
 tags: [Hexo]
-categories: Hexo
+categories: 博客
 ---
 ##初探Hexo
 
