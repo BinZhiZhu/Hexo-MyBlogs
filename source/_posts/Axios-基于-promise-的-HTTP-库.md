@@ -471,7 +471,7 @@ categories: 技术
     ```    
     
    *文章引用链接*
-   s
+   
    [kancloud]: https://www.kancloud.cn/yunye/axios 
    [GitHub Axios]: https://github.com/axios/axios
    [Axios API]: https://cn.vuejs.org/v2/cookbook/using-axios-to-consume-apis.html 
