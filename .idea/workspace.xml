@@ -4,15 +4,6 @@
     <list default="true" id="6e435154-7bb9-4dfe-af2d-80c2f1845d0e" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Axios-基于-promise-的-HTTP-库.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Axios-基于-promise-的-HTTP-库.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Nginx-配置访问Access-Denied.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Nginx-配置访问Access-Denied.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Vue-js结合ElementUI的（分页）进行前端分页.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Vue-js结合ElementUI的（分页）进行前端分页.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/fsockopen实现发起异步请求忽略返回值.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/fsockopen实现发起异步请求忽略返回值.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/北岛-《回答》.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/北岛-《回答》.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/解决Hexo首页阅读次数样式诡异的问题.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/解决Hexo首页阅读次数样式诡异的问题.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/tags/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/tags/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,12 +15,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="解决Hexo首页阅读次数样式诡异的问题.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_posts/解决Hexo首页阅读次数样式诡异的问题.md">
+      <file leaf-file-name="高仿快递智能识别地址功能.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/_posts/高仿快递智能识别地址功能.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="76">
-                <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <first_editor relative-caret-position="114">
+                <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -39,99 +30,18 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="111" column="18" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="18" />
+            <state relative-caret-position="2147">
+              <caret line="113" column="14" selection-start-line="113" selection-start-column="14" selection-end-line="113" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="探讨Tencent-weui-js之picker组件库.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_posts/探讨Tencent-weui-js之picker组件库.md">
+      <file leaf-file-name="Axios-基于-promise-的-HTTP-库.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_posts/Axios-基于-promise-的-HTTP-库.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="95">
-                <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="207" column="17" selection-start-line="207" selection-start-column="17" selection-end-line="207" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="为NexT主题添加文章阅读量统计功能.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_posts/为NexT主题添加文章阅读量统计功能.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="76">
-                <caret line="4" selection-start-line="4" selection-end-line="5" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="尝试使用Hexo-Github搭建个人博客.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_posts/尝试使用Hexo-Github搭建个人博客.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="95">
-                <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="北岛-《回答》.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_posts/北岛-《回答》.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="76">
-                <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Vue-js结合ElementUI的（分页）进行前端分页.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_posts/Vue-js结合ElementUI的（分页）进行前端分页.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="95">
-                <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="探讨Tencent-weui-js.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_posts/探讨Tencent-weui-js.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="133">
-                <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mysql-Expression-1-of-SELECT-list-is-not-in-GROUP-BY-clause解决方案.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/_posts/mysql-Expression-1-of-SELECT-list-is-not-in-GROUP-BY-clause解决方案.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="62">
-                <caret line="37" column="2" lean-forward="true" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
+              <first_editor relative-caret-position="341">
+                <caret line="464" column="51" lean-forward="true" selection-start-line="463" selection-start-column="3" selection-end-line="464" selection-end-column="51" />
               </first_editor>
               <second_editor />
             </state>
@@ -233,10 +143,11 @@
         <option value="$PROJECT_DIR$/source/_posts/北岛-《回答》.md" />
         <option value="$PROJECT_DIR$/source/_posts/解决Hexo首页阅读次数样式诡异的问题.md" />
         <option value="$PROJECT_DIR$/themes/next/_config.yml" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/source/_posts/探讨Tencent-weui-js之picker组件库.md" />
         <option value="$PROJECT_DIR$/source/_posts/探讨Tencent-weui-js.md" />
         <option value="$PROJECT_DIR$/source/_posts/mysql-Expression-1-of-SELECT-list-is-not-in-GROUP-BY-clause解决方案.md" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/source/_posts/高仿快递智能识别地址功能.md" />
       </list>
     </option>
   </component>
@@ -270,6 +181,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -303,13 +215,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="G:/www/com.jutouit.sa/com.jutouit.sa" />
+    <property name="last_opened_file_path" value="G:/www/com.test.demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
@@ -371,7 +282,11 @@
       <workItem from="1543458160932" duration="13000" />
       <workItem from="1543490640957" duration="278000" />
       <workItem from="1543497845041" duration="5325000" />
-      <workItem from="1543503752627" duration="6950000" />
+      <workItem from="1543503752627" duration="7870000" />
+      <workItem from="1544192247110" duration="82000" />
+      <workItem from="1544780751178" duration="3142000" />
+      <workItem from="1544876505002" duration="23000" />
+      <workItem from="1544878278192" duration="953000" />
     </task>
     <task id="LOCAL-00001" summary="修复初始化配置缺少空格问题">
       <created>1542034728083</created>
@@ -398,12 +313,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82999000" />
+    <option name="totallyTimeSpent" value="88119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20121029" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21331316" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="调试" order="7" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -412,7 +328,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924356" weight="0.6915584" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49848714" visible="true" weight="0.612013" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49848714" weight="0.612013" />
       <window_info anchor="bottom" id="运行" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="找到" order="8" />
@@ -660,9 +576,6 @@
         <state relative-caret-position="-1425" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/categories/精神食物/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/categories/前端/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
@@ -683,9 +596,6 @@
           <caret line="429" column="56" selection-start-line="429" selection-start-column="56" selection-end-line="429" selection-end-column="56" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db.json">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/source/categories/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -712,16 +622,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="380">
             <caret line="20" selection-start-line="20" selection-end-line="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/Axios-基于-promise-的-HTTP-库.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="95">
-            <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
@@ -799,15 +699,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/next/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
+        <state relative-caret-position="3933">
           <caret line="207" column="17" selection-start-line="207" selection-start-column="17" selection-end-line="207" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="111" column="18" selection-start-line="111" selection-start-column="18" selection-end-line="111" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -821,21 +714,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/探讨Tencent-weui-js.md">
+    <entry file="file://$PROJECT_DIR$/source/_posts/mysql-Expression-1-of-SELECT-list-is-not-in-GROUP-BY-clause解决方案.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="133">
-            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <first_editor relative-caret-position="323">
+            <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/mysql-Expression-1-of-SELECT-list-is-not-in-GROUP-BY-clause解决方案.md">
+    <entry file="file://$PROJECT_DIR$/source/_posts/探讨Tencent-weui-js.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="62">
-            <caret line="37" column="2" lean-forward="true" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
+          <first_editor relative-caret-position="133">
+            <caret line="7" selection-start-line="7" selection-end-line="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/高仿快递c±aa智能识别地址功能.md" />
+    <entry file="file://$PROJECT_DIR$/source/_posts/Axios-基于-promise-的-HTTP-库.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="341">
+            <caret line="464" column="51" lean-forward="true" selection-start-line="463" selection-start-column="3" selection-end-line="464" selection-end-column="51" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2147">
+          <caret line="113" column="14" selection-start-line="113" selection-start-column="14" selection-end-line="113" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/高仿快递智能识别地址功能.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="114">
+            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           </first_editor>
           <second_editor />
         </state>
