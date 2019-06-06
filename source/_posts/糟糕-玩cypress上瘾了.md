@@ -1,7 +1,7 @@
 ---
 title: 糟糕 玩cypress上瘾了
 date: 2019-03-01 13:17:26
-tags:
+tags:[cypress,测试]
 ---
 
 ### 玩 e2e cypress 上瘾了，你们前端项目一般如何测试？
