@@ -1,7 +1,7 @@
 ---
 title: Shell学习笔记
 date: 2019-06-23 23:20:46
-tags: [Shell] [Linux]
+tags: [Shell,Linux]
 ---
 
 ## Shell命令
