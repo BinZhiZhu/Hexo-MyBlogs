@@ -1,17 +1,12 @@
 {
   "name": "hexo-site",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "hexo": {
     "version": "3.8.0"
   },
   "scripts": {
     "release": "standard-version"
-  },
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-conventional-changelog"
-    }
   },
   "dependencies": {
     "hexo": "^3.8.0",
