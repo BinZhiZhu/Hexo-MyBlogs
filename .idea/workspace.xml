@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e435154-7bb9-4dfe-af2d-80c2f1845d0e" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/优雅的提交你的Git-commit.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/themes/next/source/images/avatar.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/themes/next/source/images/background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next/.bowerrc" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/.bowerrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/.editorconfig" afterDir="false" />
@@ -320,12 +316,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="405">
-                <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+                <caret line="27" selection-start-line="27" selection-end-line="27" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="30">
+                <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -434,6 +442,7 @@
         <option value="$PROJECT_DIR$/source/_posts/高仿快递智能识别地址功能.md" />
         <option value="$PROJECT_DIR$/source/_posts/教你用认知和人性来做最棒的程序员.md" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -539,7 +548,7 @@
       <workItem from="1546942414796" duration="15000" />
       <workItem from="1547875752936" duration="2197000" />
       <workItem from="1547946019957" duration="72000" />
-      <workItem from="1561879303654" duration="514000" />
+      <workItem from="1561879303654" duration="749000" />
     </task>
     <task id="LOCAL-00001" summary="修复初始化配置缺少空格问题">
       <created>1542034728083</created>
@@ -566,7 +575,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91384000" />
+    <option name="totallyTimeSpent" value="91619000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -672,13 +681,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="ES6 init" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/next/layout/_third-party/analytics/baidu-analytics.swig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/解决Hexo首页阅读数量统计部分样式诡异的问题.md" />
     <entry file="file://$PROJECT_DIR$/themes/next/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -1017,7 +1019,17 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="405">
-            <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <caret line="27" selection-start-line="27" selection-end-line="27" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
           </first_editor>
           <second_editor />
         </state>
