@@ -1,9 +1,17 @@
 {
   "name": "hexo-site",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "hexo": {
     "version": "3.8.0"
+  },
+  "scripts": {
+    "release": "standard-version"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
   },
   "dependencies": {
     "hexo": "^3.8.0",
@@ -22,6 +30,10 @@
     "hexo-wordcount": "^6.0.1",
     "live2d-widget-model-chitose": "^1.0.5",
     "live2d-widget-model-hibiki": "^1.0.5",
-    "live2d-widget-model-miku": "^1.0.5"
+    "live2d-widget-model-miku": "^1.0.5",
+    "standard-version": "^6.0.1"
+  },
+  "devDependencies": {
+    "cz-customizable": "^6.2.0"
   }
 }
