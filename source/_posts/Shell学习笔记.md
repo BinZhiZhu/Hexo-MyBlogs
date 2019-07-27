@@ -223,11 +223,24 @@ do
 done
 ```
 
+#### 简单的删除文件
 
+```
+#!/bin/bash
 
+filePath="del.php"
 
-
-
+echo '确认删除del.php文件吗？(y/n)'
+read check
+case $check in
+     'y')
+         rm $filePath;;
+     'n')
+         echo '取消删除';;
+      *)
+         echo '请输入y/n';;
+esac
+```
 
 
 
