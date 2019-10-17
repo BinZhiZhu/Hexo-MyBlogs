@@ -306,7 +306,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="193" selection-start-line="193" selection-end-line="193" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -435,6 +445,11 @@
               <item name="Myblogs" type="b2602c69:ProjectViewProjectNode" />
               <item name="Myblogs" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Myblogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Myblogs" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -450,13 +465,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Myblogs\public\blogimages" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="E:\Myblogs\public\images" />
       <recent name="E:\Myblogs\themes\next\source\images" />
       <recent name="E:\Myblogs\themes\next\source\background" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Myblogs\public\blogimages" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -516,6 +532,7 @@
       <workItem from="1547875752936" duration="2197000" />
       <workItem from="1547946019957" duration="72000" />
       <workItem from="1561879303654" duration="1018000" />
+      <workItem from="1564307501867" duration="425000" />
     </task>
     <task id="LOCAL-00001" summary="修复初始化配置缺少空格问题">
       <created>1542034728083</created>
@@ -542,12 +559,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91888000" />
+    <option name="totallyTimeSpent" value="92313000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20084566" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20084566" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -647,16 +665,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="ES6 init" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/_posts/解决Hexo首页阅读数量统计部分样式诡异的问题.md" />
-    <entry file="file://$PROJECT_DIR$/themes/next/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-5757" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/cursor_special_effects/index.js" />
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1083">
@@ -998,6 +1006,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/search.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/CNAME">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="193" selection-start-line="193" selection-end-line="193" />
         </state>
       </provider>
     </entry>
