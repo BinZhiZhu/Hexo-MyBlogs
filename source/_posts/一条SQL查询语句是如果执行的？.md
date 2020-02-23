@@ -1,5 +1,5 @@
 ---
-title: 深入理解MySQL-学习笔记
+title: 一条SQL查询语句是如果执行的
 date: 2020-02-22 22:56:35
 tags: [mysql]
 ---
@@ -8,7 +8,7 @@ tags: [mysql]
 总体来说，MySQL大致分为server层和存储引擎层两大部分。
 
 ```
-explain SELECT * FROM ims_member_entity
+explain SELECT * FROM T
 
 ### 执行过程
 starting	0.0001660	10.573
